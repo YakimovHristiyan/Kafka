@@ -19,5 +19,5 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
 networks:
   default:
-    name: recard
+    name: demo
     external: true
